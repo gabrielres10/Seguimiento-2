@@ -6,7 +6,7 @@ import java.util.List;
 public class Recipe {
 	private List<Ingredient> ingredients;
 	
-	public Recipe(String n, double w) {
+	public Recipe(String n) {
 		ingredients = new ArrayList<Ingredient>();
 	}
 	
